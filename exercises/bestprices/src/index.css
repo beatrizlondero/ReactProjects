@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 450%;
+}
+
+h2 {
+  font-size: 300%;
+}
+h3{
+  font-size: 200%;
+  margin: 3%;
+}
+button {
+  background-color: aquamarine;
+  font-size: 200%;
+  margin: 2%;
+  border-radius: 10%;
+
+}
+
+input,
+label, select {
+  font-family: inherit;
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  text-align: center;
+  border: 1px solid var(--color-light);
+  border-radius: 4px;
+  transition: 0.3s;
+
+}
+ .input-radio{
+  color: inherit;
+  padding: 1.5%;
+  margin: 2%;
+ }
+
+input:focus,
+label:focus {
+  outline: none;
+  border: 1px solid var(--color-dark);
+}
+
+form .button {
+  margin-top: 0.6rem;
+  grid-column: 2;
+}
+.div-city, .div-fecha{
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: aqua ;
+}
+
+.option-div{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* App.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  color: #242424;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
